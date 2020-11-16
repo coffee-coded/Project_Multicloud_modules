@@ -1,0 +1,39 @@
+{
+  "project": {
+    "project_id": "",
+    "csv_path": "",
+    "config_name": "",
+    "config_path": "",
+    "key_id": "None",
+    "key_ring_id": "None"
+  },
+  "methods": [
+    {
+      "column": "Column Name",
+      "method": "None"
+    },
+    {
+      "column": "Column Name",
+      "method": "Replace",
+      "info_types": [""],
+      "replacement_str": ""
+    },
+    {
+      "column": "Column Name",
+      "method": "FPE",
+      "info_types": [""]
+    },
+    {
+      "column": "Column Name",
+      "method": "Masking",
+      "info_types": [""],
+      "masking_character": "",
+      "number_to_mask": ""
+    },
+    {
+      "column": "Column Name",
+      "method": "Redact",
+      "info_types": [""]
+    }
+  ]
+}

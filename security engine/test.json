@@ -1,0 +1,37 @@
+{
+  "project": {
+    "project_id": "rileys-project123",
+    "csv_path": "/mnt/d/anish/projects/ec/ec-cloud-data-protector/test.csv",
+    "config_name": "config.json",
+    "config_path": "/mnt/d/anish/projects/ec-cloud-data-protector/config.json",
+    "key_id": "key1",
+    "key_ring_id": "key-ring-1"
+  },
+  "methods": [
+    {
+      "column": "Name",
+      "method": "None"
+    },
+    {
+      "column": "Phone Number",
+      "method": "FPE",
+      "info_types": ["PHONE_NUMBER"],
+      "alphabet":"1234567890 "
+    },
+    {
+      "column": "Credit Card Number",
+      "method": "FPE",
+      "info_types": ["CREDIT_CARD_NUMBER"],
+      "alphabet":"0123456789"
+    },
+    {
+      "column": "Social Security Number",
+      "method": "Masking",
+      "info_types": ["US_SOCIAL_SECURITY_NUMBER"],
+      "alphabet":"0123456789-",
+      "replacement_str": "Social Security NUMBER",
+      "masking_character": "#",
+      "number_to_mask": "7"
+    }
+  ]
+}
